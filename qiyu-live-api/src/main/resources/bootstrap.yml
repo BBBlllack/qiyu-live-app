@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: qiyu-live-api
+  cloud:
+    nacos:
+      username: qiyu
+      password: qiyu
+      discovery:
+        server-addr: qiyu.test.com:8848
+        namespace: qiyu-live-test
+
+
